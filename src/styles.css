@@ -1,0 +1,29 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-board {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.canvas-container {
+  width: 60%;
+  height: 300px; /* Adjust to your needs */
+  border: 1px solid #000;
+  margin-right: 20px;
+}
+
+.chat-container {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.canvas {
+  height: 100%;
+  background-color: #f0f0f0;
+}
